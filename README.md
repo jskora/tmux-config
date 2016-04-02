@@ -27,7 +27,7 @@ tmux source-file ~/.tmux.conf
 ```
 
 #### References
-http://superuser.com/questions/360832/how-can-i-make-ctrlleft-right-keys-work-right-in-tmux
-https://www.reddit.com/r/tmux/comments/2xgrf8/garbage_characters_printed_to_screen_after_a/
-https://learnxinyminutes.com/docs/tmux/
+* http://superuser.com/questions/360832/how-can-i-make-ctrlleft-right-keys-work-right-in-tmux
+* https://www.reddit.com/r/tmux/comments/2xgrf8/garbage_characters_printed_to_screen_after_a/
+* https://learnxinyminutes.com/docs/tmux/
 
