@@ -1,19 +1,17 @@
-tmux-config
-===========
+# tmux-config
 
 tmux configuration script.
 
-Installation
-------------
+## Installation
 
-1. Copy the configuration file into user home with a leading period ("."), or use the included script do the copy.
+### Copy the configuration file into user home with a leading period ("."), or use the included script do the copy.
 ```
      if [ -f ~/.tmux.conf ]; then
        cp -p ~/.tmux.conf ~/.tmux.conf.save.$(date +%Y%m%d-%H%M%S)
      fi
      cp -pi tmux.conf ~/.tmux.conf
 ```
-2. To reload the configuration in an existing tmux session either use tmux command
+### To reload the configuration in an existing tmux session either use tmux command
     ```
 :source-file ~/.tmux.conf
 ```
