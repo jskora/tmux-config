@@ -7,7 +7,7 @@ Installation
 ------------
 
 1. Copy the configuration file into user home with a leading period ("."), or use the included script do the copy.
- ```
+```
      if [ -f ~/.tmux.conf ]; then
        cp -p ~/.tmux.conf ~/.tmux.conf.save.$(date +%Y%m%d-%H%M%S)
      fi
