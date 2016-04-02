@@ -12,7 +12,7 @@ tmux configuration script.
      cp -pi tmux.conf ~/.tmux.conf
 ```
 ### To reload the configuration in an existing tmux session either use tmux command
-    ```
+```
 :source-file ~/.tmux.conf
 ```
 or the CLI command.
