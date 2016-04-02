@@ -6,23 +6,21 @@ tmux configuration script.
 Installation
 ------------
 
-1. Copy the desired files into user home, adding a leading period (".").
-
-    if [ -f ~/.tmux.conf ]
-    then
-      cp -p ~/.tmux.conf ~/.tmux.conf.save.$(date +%Y%m%d-%H%M%S)
-    fi
-    cp -pi tmux.conf ~/.tmux.conf
-
-   Or use the included script.
-
-2. Start tmux or reload the configuration in an existing tmux session.
-
-	:source-file ~/.tmux.conf
-
-	- or in a shell -
-
-	$ tmux source-file ~/.tmux.conf
+1. Copy the configuration file into user home with a leading period ("."), or use the included script do the copy.
+```
+ if [ -f ~/.tmux.conf ]; then
+   cp -p ~/.tmux.conf ~/.tmux.conf.save.$(date +%Y%m%d-%H%M%S)
+ fi
+ cp -pi tmux.conf ~/.tmux.conf
+```
+2. To reload the configuration in an existing tmux session either use tmux command
+```
+:source-file ~/.tmux.conf
+```
+or the CLI command.
+```
+tmux source-file ~/.tmux.conf
+```
 
 Reference
 ---------
