@@ -5,19 +5,19 @@ tmux configuration script.
 ## Installation
 
 ### Install configuration in home directory
-Copy the config file prefixing the filename with a period ("."), or
+Copy the config file prefixing the filename with a period (".")
 ```
     if [ -f ~/.tmux.conf ]; then
       cp -p ~/.tmux.conf ~/.tmux.conf.save.$(date +%Y%m%d-%H%M%S)
     fi
     cp -pi tmux.conf ~/.tmux.conf
 ```
-use the included script do the copy.
+or use the included script do the copy.
 ```
     ./setup.sh
 ```    
 ### To reload the configuration in an existing tmux session
-Use either the tmux command
+Use the tmux command
 ```
 :source-file ~/.tmux.conf
 ```
