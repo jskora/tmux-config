@@ -6,7 +6,7 @@ tmux configuration script.
 Installation
 ------------
 
-# Copy the desired files into user home, adding a leading period (".").
+1. Copy the desired files into user home, adding a leading period (".").
 
     if [ -f ~/.tmux.conf ]
     then
@@ -16,7 +16,7 @@ Installation
 
    Or use the included script.
 
-# Start tmux or reload the configuration in an existing tmux session.
+2. Start tmux or reload the configuration in an existing tmux session.
 
 	:source-file ~/.tmux.conf
 
