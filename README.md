@@ -7,14 +7,14 @@ tmux configuration script.
 ### Install configuration in home directory
 Copy the config file prefixing the filename with a period (".")
 ```
-    if [ -f ~/.tmux.conf ]; then
-      cp -p ~/.tmux.conf ~/.tmux.conf.save.$(date +%Y%m%d-%H%M%S)
-    fi
-    cp -pi tmux.conf ~/.tmux.conf
+if [ -f ~/.tmux.conf ]; then
+  cp -p ~/.tmux.conf ~/.tmux.conf.save.$(date +%Y%m%d-%H%M%S)
+fi
+cp -pi tmux.conf ~/.tmux.conf
 ```
 or use the included script do the copy.
 ```
-    ./setup.sh
+./setup.sh
 ```    
 ### To reload the configuration in an existing tmux session
 Use the tmux command
